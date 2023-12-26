@@ -1,0 +1,37 @@
+body {
+	background:#0EABEE;
+	font-family:Roboto Mono;
+}
+
+h1 {
+	color:#347235;
+	background:#E799A3;
+}
+
+h2 {
+	color:#810541;
+}
+
+a {
+	color:#FD349C;
+}
+
+.secondary {
+	color:#E75480;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+.clm {
+	float:left;
+	width:25%;
+	padding:5px;
+}
+
+.row::after {
+	content:""
+	display:table;
+	clear:both;
+}
